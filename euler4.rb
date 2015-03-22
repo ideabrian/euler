@@ -1,3 +1,6 @@
+# Problem: https://projecteuler.net/problem=4
+# Solution by Brian Ball @brianball
+#  
 # A palindromic number reads the same both ways. 
 # The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
