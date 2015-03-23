@@ -34,9 +34,7 @@ l_array = l.split('').delete_if {|n| n == "\n"}
 all_combos = []
 
 def get_product(array)
-	product = 1
-	array.each {|n| product *= n}
-	product
+	array.reduce(1) {|product, item| product * item}
 end
 
 i = 0
